@@ -1,0 +1,133 @@
+header{
+  float: left;
+  box-sizing: content-box;
+      width: 75px;
+      height: 30px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  font-size: 12px;
+  background-image: url("../images/crossline-dots.png");
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  color: grey;
+  margin: 0;
+  font-family: sans-serif;
+
+}
+.container{
+  margin-left: 15%;
+  max-width: 960px;
+}
+.nav{
+  clear: both;
+  width: 100%;
+  overflow: auto;
+  background-color: white;
+  border-bottom: solid 2px gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.nav a{
+  display:inline-block;
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 90px;
+  padding-left: 15px;
+  margin-left: 15px;}
+
+.logo{
+  float: left;
+  background-color: #4aaaa5;
+  width: 250px;
+  height: 90px ;
+  line-height: 90px;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.links{
+  float: right;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-form {
+  border: 2px solid grey;
+  margin: auto;
+  background-color: white;
+  height: 400px;
+  padding:25px;
+  padding-left: 8px;
+  width:60%;
+  margin-top: 50px;
+  
+}
+
+.about-me-box {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  border: 2px solid grey;
+  padding: 25px;
+  margin-top: 50px;
+  height: 450px;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+
+}
+.portfolio {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  border: 2px solid grey;
+  padding: 25px;
+  margin-top: 50px;
+  height: 700px;
+  width: 700px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+}
+.container-1 {
+  width: 980px;
+}
